@@ -30,7 +30,7 @@ const DayTwoPage = () => {
 	const [search, setSearch] = React.useState('')
 	const [filteredMovies, setFilteredMovies] = React.useState<typeof movies>([])
 
-	const handlesSearchChange = (e) => {
+	const handlesSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		const query = e.target.value.toLowerCase()
 		setSearch(query)
 		setFilteredMovies(movies.filter((movie) => movie.Title.toLowerCase().includes(query)))
