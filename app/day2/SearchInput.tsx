@@ -7,16 +7,20 @@ const SearchInput = () => {
 		<>
 			<Input
 				placeholder="Your Favorite Holiday Movie"
-				className="w-full h-12 bg-red-400 placeholder:text-white placeholder:font-semibold relative"
+				className="w-96 h-12 bg-red-400 placeholder:text-white placeholder:font-semibold relative"
 				list="movies"
 				type="search"
 			/>
-			<datalist id="movies">
+			<datalist 
+			id="movies"
+			>
 				{movies.map((movie) => {
-					return <option value={movie.Title} key={movie["Movie Link"]}>
-						<div>
-							<Image src={`${movie.Image}`} alt={movie["Image Alt"]} width={20} height={40} />
-						</div>
+					return <option 
+					value={movie.Title} 
+					key={movie["Movie Link"]}
+					>
+						first movie
+						{movie.Title}
 					</option>
 				})}
 			</datalist>
