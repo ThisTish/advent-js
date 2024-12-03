@@ -1,8 +1,8 @@
 <svg width="110" height="107" viewBox="0 0 110 107" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g transform="scale(1, -1) translate(0, -107)">
-  <path d="M105 70C105 70 82.6142 39 55 39C27.3858 39 5 70 5 70" stroke="#26C9C3" stroke-width="10" stroke-linecap="round"/>
-  <path d="M54.9999 22.5V5.5" stroke="#26C9C3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M91 34.9707L100.686 21" stroke="#26C9C3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M9.00049 20.9996L18.6856 34.971" stroke="#26C9C3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M105 70C105 70 82.6142 39 55 39C27.3858 39 5 70 5 70" stroke="#26C9C3" strokeWidth="10" strokeLinecap="round"/>
+  <path d="M54.9999 22.5V5.5" stroke="#26C9C3" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M91 34.9707L100.686 21" stroke="#26C9C3" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M9.00049 20.9996L18.6856 34.971" stroke="#26C9C3" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round"/>
 </g>
 </svg>
