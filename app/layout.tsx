@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,6 +29,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+      <nav className="flex gap-3 text-xs font-light text-rose-950 p-10 flex-wrap">
+        {[...Array(25)].map((_, i) =>(
+          <Link key={i} href={`/day${i + 1}`}>Day{i + 1}</Link>
+        ))}
+      </nav>
         {children}
       </body>
     </html>
